@@ -4,24 +4,9 @@
 #include <iostream>
 #include <vector>
 
+#include "Node.cpp"
+
 using std::string, std::ifstream, std::stringstream, std::vector;
-
-class State{
-    //need array with path to state
-    //configuration of puzzle
-
-};
-
-class Node{
-    //ptr to parent
-    //depth
-    //
-
-};
-
-vector<Node> successors(){
-    return;
-}
 
 //read info from file
 void parcer(string file){
